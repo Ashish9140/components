@@ -27,3 +27,7 @@
 .card-manager-btn:hover{
     background-color: rgb(118, 168, 68);
 }
+
+.card-scrolled2{
+    display: none;
+}

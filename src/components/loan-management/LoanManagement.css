@@ -27,3 +27,7 @@
 .loan-manager-btn:hover{
     background-color: rgb(118, 168, 68);
 }
+
+.loan-scrolled2{
+    display: none;
+}

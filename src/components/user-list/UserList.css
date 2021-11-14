@@ -85,3 +85,7 @@ input:checked[type="checkbox"]:before {
   color: rgb(72, 228, 228);
   cursor: pointer;
 }
+
+.user-list2{
+  display: none;
+}

@@ -175,6 +175,17 @@
   display: none;
 }
 
+#nav-toggle:checked + .sidebar li a:hover span:last-child{
+  display: block;
+  position: fixed;
+  left: 72px;
+  margin-bottom: 5px;
+  color: #fff;
+  background-color: rgb(199, 23, 23);
+  padding: 5px;
+  border-radius: 5px;
+}
+
 #nav-toggle:checked ~ .user-main-content {
   margin-left: 70px;
 }

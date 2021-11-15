@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 export const LoanCalculator = () => {
     // state to storage the values given by the user when filling the input fields
     const [userValues, setUserValues] = useState({
@@ -24,7 +23,6 @@ export const LoanCalculator = () => {
 
     const handleInputChange = (event) =>
         setUserValues({ ...userValues, [event.target.name]: event.target.value });
-
 
     const isValid = () => {
         const { amount, interest, years } = userValues;

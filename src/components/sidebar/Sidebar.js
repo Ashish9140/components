@@ -4,10 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 export const Sidebar = () => {
     let location = useLocation().pathname;
 
-    // useEffect(() => {
-    //     let sidebar = document.querySelector(".sidebar");
-    // })
-
     return (
         <>
             <input type="checkbox" id="nav-toggle" />

@@ -1,6 +1,5 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import { Main } from "Pages/Admin-main/Main";
-import './style-admin.css';
 import { Sidebar } from "components/admin-sidebar/Sidebar";
 function AdminHome() {
   return (

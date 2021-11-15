@@ -5,6 +5,7 @@ export const Usercard = () => {
         <div className="user-card">
             <h2>User Card</h2>
             <hr />
+
             <form>
                 <div className="form-group">
                     <label>Type Of Account</label>
@@ -40,6 +41,22 @@ export const Usercard = () => {
                     <button type="submit">Apply For Card</button>
                 </div>
             </form>
+
+            <div className="card-details">
+                <div className="form-group">
+                    <span> Card Number: </span><span className="fm-gp"> 34563457653</span>
+                </div>
+                <div className="form-group">
+                    <span> Account Number:</span> <span className="fm-gp">75666342947063</span>
+                </div>
+                <div className="form-group">
+                    <span>Card Brand:</span> <span className="fm-gp"> Master Card</span>
+                </div>
+                <div className="form-group">
+                    <span> Card Type:</span> <span className="fm-gp">Debit Card</span>
+                </div>
+            </div>
+
         </div>
     )
 }

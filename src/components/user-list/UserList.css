@@ -3,6 +3,8 @@
   background-color: #fff;
   margin: 1rem 0rem 1rem 0rem;
   border-radius: 10px;
+  overflow-x: auto;
+  min-width: 800px;
 }
 
 .user-list>h2 {
@@ -88,4 +90,8 @@ input:checked[type="checkbox"]:before {
 
 .user-list2{
   display: none;
+}
+
+.user-list-scrolled{
+  overflow-x: auto;
 }

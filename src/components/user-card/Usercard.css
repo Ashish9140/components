@@ -48,3 +48,19 @@
         width: 90%;
     }
 }
+
+.card-details .form-group{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #604848;
+    background-color: rgb(246, 244, 248);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+}
+
+.card-details .form-group .fm-gp{
+    color: #06e806;
+    margin-left: 15px;
+}

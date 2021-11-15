@@ -6,7 +6,7 @@
     min-width: 800px;
 }
 
-.loan-scrolled{
+.loan-scrolled .loan-manager-scrolled{
     overflow-x: auto;
 }
 

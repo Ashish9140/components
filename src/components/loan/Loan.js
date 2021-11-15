@@ -1,3 +1,4 @@
+import { LoanCalculator } from 'components/loan-calculator/LoanCalculator'
 import './Loan.css'
 
 export const Loan = () => {
@@ -404,6 +405,9 @@ export const Loan = () => {
                     </div>
                 </form>
             </div>
+
+
+            <LoanCalculator />
 
         </>
 

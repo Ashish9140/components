@@ -4,6 +4,7 @@ import { SignIn } from "Pages/SignIn/SignIn";
 import UserHomePage from "Pages/User-main/UserHomePage";
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import './App.css'
 
 const App = () => {
     return (

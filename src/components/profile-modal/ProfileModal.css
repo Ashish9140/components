@@ -1,13 +1,10 @@
-.profile-modal {
+.profile-modal{
     padding: 1rem;
-    background-color: #fff;
     margin: 1rem 0rem 1rem 0rem;
     border-radius: 10px;
-    background-color: blue;
-    margin: 100px;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .profile-modal .input-group{
@@ -33,7 +30,7 @@
     margin-bottom: 5px;
 }
 
-.input-group input,.input-group select,.input-profile input,.input-group textarea{
+.profile-modal .input-group input,.profile-modal .input-group select,.profile-modal .input-profile input,.profile-modal .input-group textarea{
     width: 95%;
     background: #f1f5f9;
     height: 30px;
@@ -43,7 +40,7 @@
     border: none;
 }
 
-.input-profile input{
+.profile-modal .input-profile input{
     width: 97.2%;
 }
 
@@ -60,19 +57,15 @@
 }
 
 @media only screen and (max-width:900px) {
-    .input-group{
+    .profile-modal .input-group{
         grid-template-columns: 1fr;
         width: 100%;
     }
 }
 
-@media only screen and (max-width:600px) {
-    .user-info{
-        grid-template-columns: 1fr;
-    }
-    .details div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.close-modal{
+    display: inline-block;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
 }

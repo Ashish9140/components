@@ -441,7 +441,7 @@ form.form__sign-up {
 }
 
 @media (max-width: 570px) {
-  form {
+  .class-change {
     padding: 0 1.5rem;
   }
   .panel__image {

@@ -1,7 +1,11 @@
+import './ProfileModal.css'
 
-export const ProfileModal = () => {
+export const ProfileModal = (openModal) => {
     return (
         <div class="profile-modal">
+            <div className="close-modal">
+                <i class="las la-times" onClick={openModal}></i>
+            </div>
             <form>
                 <div class="input-group">
                     <div>
@@ -18,7 +22,7 @@ export const ProfileModal = () => {
                     </div>
                 </div>
                 <div class="input-profile">
-                    <label>Choose Prodile</label>
+                    <label>Choose Profile</label>
                     <div>
                         <input type="file" required="required" />
                     </div>

@@ -41,7 +41,7 @@ export const LoanManagement = () => {
                                         <div className="profile-dropdown">
                                             <button type="submit" className="card-manager-btn">Accept Request</button>
                                             <div>
-                                                <button className="go-profile" onClick={openModal}>Check Profile<i className="las la-angle-double-right"></i></button>
+                                                <button className="go-profile" onClick={openModal}>Check Loan Form<i className="las la-angle-double-right"></i></button>
                                             </div>
                                         </div>
                                     </td>
@@ -55,7 +55,7 @@ export const LoanManagement = () => {
                                         <div className="profile-dropdown">
                                             <button type="submit" className="card-manager-btn">Accept Request</button>
                                             <div>
-                                                <button className="go-profile" onClick={openModal}>Check Profile<i className="las la-angle-double-right"></i></button>
+                                                <button className="go-profile" onClick={openModal}>Check Loan Form<i className="las la-angle-double-right"></i></button>
                                             </div>
                                         </div>
                                     </td>
@@ -69,7 +69,7 @@ export const LoanManagement = () => {
                                         <div className="profile-dropdown">
                                             <button type="submit" className="card-manager-btn">Accept Request</button>
                                             <div>
-                                                <button className="go-profile" onClick={openModal}>Check Profile<i className="las la-angle-double-right"></i></button>
+                                                <button className="go-profile" onClick={openModal}>Check Loan Form<i className="las la-angle-double-right"></i></button>
                                             </div>
                                         </div>
                                     </td>
@@ -177,26 +177,65 @@ export const LoanManagement = () => {
                         </div>
                     </div>
 
+                    <div class="static-group">
+                        <div>
+                            <label>Occupation</label>
+                            <div class="static-group-vec">
+                                Student
+                            </div>
+                        </div>
+                        <div>
+                            <label>Annual Income</label>
+                            <div class="static-group-vec">
+                                $2813297
+                            </div>
+                        </div>
+                    </div>
 
-                    <form>
-                        <div class="input-group">
-                            <div>
-                                <label>Account Balance</label>
-                                <div>
-                                    <input type="text" required="required" value="$2000" />
-                                </div>
-                            </div>
-                            <div>
-                                <label>Kyc</label>
-                                <div>
-                                    <input type="text" required="required" value="verified" />
-                                </div>
+                    <div class="static-group">
+                        <div>
+                            <label>Amount</label>
+                            <div class="static-group-vec">
+                                $6345674
                             </div>
                         </div>
-                        <div class="profile-modal-btn">
-                            <button type="submit">Save</button>
+                        <div>
+                            <label>Interest</label>
+                            <div class="static-group-vec">
+                                5
+                            </div>
                         </div>
-                    </form>
+                    </div>
+
+                    <div class="static-group">
+                        <div>
+                            <label>Time</label>
+                            <div class="static-group-vec">
+                                5
+                            </div>
+                        </div>
+                        <div>
+                            <label>Loan Type</label>
+                            <div class="static-group-vec">
+                                xyz
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="static-group">
+                        <div>
+                            <label>Basic Monthely Salary</label>
+                            <div class="static-group-vec">
+                                $3465
+                            </div>
+                        </div>
+                        <div>
+                            <label>Loan Purpose</label>
+                            <div class="static-group-vec">
+                                <textarea name="" id="" cols="30" rows="5" value="Paisa Hee Paisa Hoga "></textarea>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

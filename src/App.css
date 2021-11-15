@@ -93,6 +93,16 @@
   margin-top: 5px;
 }
 
+.static-group-vec textarea{
+  width: 100%;
+  height: 100%;
+  background: rgb(236 241 223);
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 20px;
+}
+
 .static-group>div{
   margin: 10px 0px 2px 0px;
 }

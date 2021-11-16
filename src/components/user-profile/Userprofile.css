@@ -34,6 +34,11 @@
     border-radius: 10px;
 }
 
+.user-profile>h2 {
+    font-family: 'Arapey', serif;
+    margin-bottom: 5px;
+}
+
 .input-group{
     display: grid;
     grid-template-columns: 1fr 1fr;

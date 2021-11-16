@@ -21,6 +21,10 @@ export const Sidebar = () => {
                             <span className="lar la-file-excel"></span><span>Users</span>
                         </Link></li>
 
+                        <li><Link to="/transfer-admin" className={location === "/transfer-admin" ? "active" : ""}>
+                            <span className="lar la-file-excel"></span><span>Transaction History</span>
+                        </Link></li>
+
                         <li><Link to="/profile" className={location === "/profile" ? "active" : ""}>
                             <span className="lar la-user-circle"></span><span>Admin Profile</span>
                         </Link></li>

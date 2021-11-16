@@ -10,6 +10,7 @@ export const LoanHistory = () => {
                     <thead>
                         <tr>
                             <th>Apply Date</th>
+                            <th>Apply Time</th>
                             <th>Laon Amount</th>
                             <th>Loan Interest</th>
                             <th>Time Period</th>
@@ -19,6 +20,7 @@ export const LoanHistory = () => {
                     <tbody>
                         <tr>
                             <td>22-11-2020</td>
+                            <td>09:10</td>
                             <td>4356345</td>
                             <td>5%</td>
                             <td>5 Years</td>
@@ -26,20 +28,31 @@ export const LoanHistory = () => {
                         </tr>
                         <tr>
                             <td>22-11-2020</td>
+                            <td>09:10</td>
                             <td>4356345</td>
                             <td>5%</td>
                             <td>5 Years</td>
-                            <td>Not Approved</td>
+                            <td>Approved</td>
                         </tr>
                         <tr>
                             <td>22-11-2020</td>
+                            <td>09:10</td>
                             <td>4356345</td>
                             <td>5%</td>
                             <td>5 Years</td>
-                            <td>Not Approved</td>
+                            <td>Approved</td>
                         </tr>
                         <tr>
                             <td>22-11-2020</td>
+                            <td>09:10</td>
+                            <td>4356345</td>
+                            <td>5%</td>
+                            <td>5 Years</td>
+                            <td>Approved</td>
+                        </tr>
+                        <tr>
+                            <td>22-11-2020</td>
+                            <td>09:10</td>
                             <td>4356345</td>
                             <td>5%</td>
                             <td>5 Years</td>

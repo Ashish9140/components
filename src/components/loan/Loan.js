@@ -1,10 +1,14 @@
 import { LoanCalculator } from 'components/loan-calculator/LoanCalculator'
+import { LoanHistory } from 'components/loan-history/LoanHistory'
 import './Loan.css'
 
 export const Loan = () => {
     return (
 
         <>
+
+            <LoanHistory />
+
             <div className="user-profile">
                 <h2>Loan Form</h2>
                 <hr />

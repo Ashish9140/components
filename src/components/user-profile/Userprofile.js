@@ -41,7 +41,7 @@ export const Userprofile = () => {
                         </div>
                     </div>
                     <div className="input-profile">
-                        <label>Choose Prodile</label>
+                        <label>Choose Profile</label>
                         <div>
                             <input type="file" required="required" />
                         </div>
